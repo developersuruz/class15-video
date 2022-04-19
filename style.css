@@ -1,0 +1,390 @@
+/*Default CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    max-width: 100%;
+}
+
+.container{
+    width: 1240px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/*Header CSS*/
+.header{
+    background-color: #fff;
+    color: #000;
+}
+
+.header-left{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.header-left img {
+    width: 200px;
+    height: auto;
+    margin-top: 12px;
+}
+
+.header-right{
+    float: right; 
+    width: 70%;
+}
+
+.header-right .menu{}
+
+.header-right .menu ul{text-align: center;}
+
+.header-right .menu ul li{
+    display: inline-block;
+}
+
+.header-right .menu ul li a{ 
+    display: block;
+    color: #000;
+    font-size: 18px;
+    padding: 0 15px;
+    text-decoration: none;
+    line-height: 62px;
+    border-right: 1px solid #000;
+}
+
+
+/*Banner Section*/
+.banner {
+    background: url(./img/ss.jpg) no-repeat center;
+    background-size: cover;
+    padding: 130px 0;
+    background-attachment: fixed;
+    color: #fafafa;
+    height: 500px;
+}
+
+.banner-caption{
+    float: left;
+    width: 50%;
+    margin-left: 288px;
+}
+
+.banner-caption h1 {
+    background-image: url(./img/repsol.jpg);
+    background-size: cover;
+    padding: 80px;
+    width: 66px;
+    margin: auto;
+    margin-right: 0px;
+    border-radius: 50%;
+    padding-left: 50px;
+}
+
+.banner-caption h2 {
+    font-size: 35px;
+    color: white;
+    background: #2ecc71;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.banner-caption h3 {
+    font-size: 35px;
+    color: #0a0a0a;
+    background: #fafafa;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.spic{
+    border-radius: 50%;
+    width: 30px;
+    height: auto;
+}
+.default-btn {
+    display: inline-block;
+    background: #b9e1c9;
+    color: black;
+    padding: 3px 10px;
+    padding-bottom: 0;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/*Banner 2*/
+.banner-section{
+    background-color: #fff;
+    padding: 50px 0;
+
+}
+.mid-content{}
+.video-left{
+    float: left;
+    width: 48%;
+}
+.video-content-right{
+    float: right;
+    width: 48%;
+}
+.video-content-right h3 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: red;
+    border-bottom: 1px solid #000;
+}
+.video-content-right p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000;
+    text-align: justify;
+}
+
+/*Service section*/
+.service-section{}
+.section-title{}
+.section-title h3 img{
+    font-size: 50px;
+    margin: 15px;
+    font-weight: 500;
+    border-radius: 50%;
+    height: 85px;
+}
+.section-title h3 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.section-title p {
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: 200;
+    border-bottom: 1px solid #000;
+}
+
+/*Services Items*/
+.services-items{
+    margin-top: 60px;
+} 
+.service-box {
+    float: left;
+    width: 31.3%;
+    box-shadow: 7px 7px 25px 0 rgb(0 0 0 / 50%);
+    margin-right: 2%;
+    margin-bottom: 35px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.s-icon{
+    float: left;
+    width: 50px;
+    min-height: 100px;
+    font-size: 45px;
+    color: rebeccapurple;
+    margin-right: 10px;
+}
+.s-icon span{}
+.s-icon span img {
+    border-radius: 10px;
+    height: 64px;
+}
+.s-content{
+    margin-top: 8px;
+    text-align: justify;
+}
+.s-content h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 21px;
+    text-align: center;
+    color: #2ecc71;
+}
+.s-content p{
+    color: #000;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+/*About Section*/
+.about{
+    margin-top: 20px;
+}
+.suruz{
+    text-align: left;
+}
+.about{}
+.Suruz1 img{
+    width: 149px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 56px;
+}
+
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about p{
+    max-width: 100%;
+    margin: auto;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.about-left-suruz{
+    float: left;
+    width: 33%;
+}
+.about-left-about{
+    float: left;
+    width: 33%;
+}
+.about-left-bdflag{
+    float: left;
+    width: 33%;
+}
+
+
+/*Service Section*/
+.service{
+    margin-top: 60px;
+}
+.service-item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid #ddd;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.service-item span{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: rgba(7, 123, 201, 0.6);
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+.service-item h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.service-item p{
+    font-size: 17.4px;
+    text-align: justify;
+}
+
+
+/*Blog Section*/
+.blog-container{
+    margin: 60px 0;
+
+}
+.blog-item{
+    margin-bottom: 30px;
+}
+
+.blog-item img{
+    float: left;
+    width: 120px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.blog-item p{
+    font-size: 16px;
+    text-align: justify;
+}
+.blog-left-content{
+    float: left;
+    width: 70%;
+}
+.blog-left-notification{
+    float: right;
+    width: 25%;
+}
+
+/*Blog Notification*/
+.blog-left-notification{}
+
+.blog-left-notification h2 {
+    font-size: 35px;
+    color: rgb(241, 11, 11);
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.blog-left-notification ul{
+    list-style: none;
+}
+.blog-left-notification ul li{
+    font-size: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 6px;
+    background: #fafafa;
+    border-radius: 5px;
+}
+
+/*Footer Section*/
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 15px;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+}
+.footer-left p{
+    font-size: 23px;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+
+.Social-Menu{
+    text-align: right;
+}
+.Social-Menu li{
+    display: inline-block;
+}
+.Social-Menu li a{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.Social-Menu li a:hover{
+
+}
